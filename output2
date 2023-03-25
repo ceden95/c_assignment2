@@ -1,0 +1,124 @@
+
+WELCOME TO SET OPERATION PROGRAM !
+
+This program make some operations on sets of numbers by your choise,
+such as union, intersection, subtraction ect.
+Here are some guidelines for understanding the usage of the program:
+
+# The operations you can make on sets are: read_set, print_set,
+union_set, intersect_set, sub_set, symdiff_set ,stop.
+
+# The sets names you can make some operations on are: SETA, SETB,
+SETC, SETD, SETE, SETF.
+
+# The valid range of numbers is 0-127.
+
+# To perform read_set, type:
+read_set <SETNAME>,<number>,...,<number>,-1
+For example: read_set SETA, 23, 1, 89, 45, -1
+
+# To perform print_set, type:
+print_set <SETNAME>
+For example: print_set SETA
+
+# To perform union_set/intersect_set/sub_set/syndiff_set, type:
+<operation> <SETNAME1>,<SETNAME2>,<SETNAME3>
+For example: union_set SETA, SETB, SETF
+
+#To exit the program, all you have to do is type stop
+
+lets start! write your first commend here: 
+input is: PRINT_SET SETA
+
+Undefined commend name
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set , SETA,1,2,3,4,-1
+
+Illegal comma
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETB 5,2,7,8,3,-1
+
+Missing comma
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETB , ,2,7,8,3,-1
+
+Multiple consecutive commas
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETB,2, 7 8,3,-1
+
+Missing comma
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: union_set SETR , SETC, SETA
+
+Undefined set name
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: symdiff_set SETA, SETB SETC
+
+Missing comma
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: intersect_set SETC, SETC
+
+Missing parameters
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETA,12,34,67,87,d,43,-1
+
+Invalid set member - not an integer
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set  SETA , 34,21,76,45,47,15,1.0,-1
+
+Invalid set member - not an integer
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETA ,1,2,5,8,45,89,23
+
+List of set members is not terminated correctly
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set SETB ,1,3,45,67,323, 6, -1
+
+Invalid set member - value out of range
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_set sETA,1,2,-1
+
+Undefined set name
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: read_setSETA, 34,67,21,-1 ,
+
+EXtraneous text after end of commend.
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+input is: sub_set SETD, SETC,, SETC
+
+Multiple consecutive commas
+
+lets try again! type in a command:.. 
+.. but currect one this time (; : 
+
+
+NO STOP COMMEND IN YOUR FILE, follow the rules. see you next time.
+when you'll kmow how to play :P

@@ -1,0 +1,100 @@
+
+WELCOME TO SET OPERATION PROGRAM !
+
+This program make some operations on sets of numbers by your choise,
+such as union, intersection, subtraction ect.
+Here are some guidelines for understanding the usage of the program:
+
+# The operations you can make on sets are: read_set, print_set,
+union_set, intersect_set, sub_set, symdiff_set ,stop.
+
+# The sets names you can make some operations on are: SETA, SETB,
+SETC, SETD, SETE, SETF.
+
+# The valid range of numbers is 0-127.
+
+# To perform read_set, type:
+read_set <SETNAME>,<number>,...,<number>,-1
+For example: read_set SETA, 23, 1, 89, 45, -1
+
+# To perform print_set, type:
+print_set <SETNAME>
+For example: print_set SETA
+
+# To perform union_set/intersect_set/sub_set/syndiff_set, type:
+<operation> <SETNAME1>,<SETNAME2>,<SETNAME3>
+For example: union_set SETA, SETB, SETF
+
+#To exit the program, all you have to do is type ''stop''
+
+lets start! write your first commend here: 
+input is: read_set  	SETA ,1,2,3,4,5,-1
+
+
+Done! type in the next command: 
+input is:   	read_set SETB,   5, 6, 7,8,9 ,-1
+
+
+Done! type in the next command: 
+input is: union_set SETA, SETB 	, SETC
+
+
+Done! type in the next command: 
+input is: print_set SETC
+
+
+SETC: 1 2 3 4 5 6 7 8 9 
+
+Done! type in the next command: 
+input is: read_set SETD ,2,4,6,8,-1
+
+
+Done! type in the next command: 
+input is: sub_set SETC, SETD, SETE
+
+
+Done! type in the next command: 
+input is:  print_set 	SETE
+
+
+SETE: 1 3 5 7 9 
+
+Done! type in the next command: 
+input is: symdiff_set SETA, SETE, SETF
+
+
+Done! type in the next command: 
+input is: print_set SETA
+
+
+SETA: 1 2 3 4 5 
+
+Done! type in the next command: 
+input is: print_set SETF  
+
+
+SETF: 2 4 7 9 
+
+Done! type in the next command: 
+input is: read_set SETA ,10,20,30,40,50,-1
+
+
+Done! type in the next command: 
+input is: read_set SETB, 40,50,60,70,-1
+
+
+Done! type in the next command: 
+input is: intersect_set SETB, SETA, SETF
+
+
+Done! type in the next command: 
+input is: print_set SETF	
+
+
+SETF: 40 50 
+
+Done! type in the next command: 
+input is: stop   
+
+i guess thats it, see you next time!
+
